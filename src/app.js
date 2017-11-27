@@ -29,8 +29,8 @@ const songData = [
   },
   ];
 
-console.log('it loaded!');
+let songTemplate;
 
 $(document).ready( () => {
-
+  songTemplate = _.template($('#book-template').html());
 });
